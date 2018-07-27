@@ -1,12 +1,163 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-    <title>AEC</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Avadh Estate & Consultants</title>
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+    <style>
+        body {
+            padding-top: 54px;
+        }
+
+        @media (min-width: 992px) {
+            body {
+                padding-top: 56px;
+            }
+        }
+    </style>
 </head>
+
 <body>
-    <marquee behavior="alternate">
-        <span style="font-size: 32px; font-family: Arial, Helvetica, sans-serif; color: red">
-            Avadh Estate & Consultants
-        </span>
-    </marquee>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="logo.png" alt="AEC" height="30" /> Avadh Estate & Consultants
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row my-4">
+            <div class="col-lg-8">
+                <link rel="stylesheet" href="https://cdn.pannellum.org/2.4/pannellum.css" />
+                <script type="text/javascript" src="https://cdn.pannellum.org/2.4/pannellum.js"></script>
+                <div id="panorama" style="height: 300px;"></div>
+                <script>
+                    pannellum.viewer('panorama', {
+                        "type": "equirectangular",
+                        "autoLoad": true,
+                        "autoRotate": -2,
+                        "showZoomCtrl": false,
+                        "panorama": "panaroma.jpg"
+                    });
+                </script>
+            </div>
+            <div class="col-lg-4">
+                <h2>
+                    <i class="fas fa-tags"></i> AEC
+                </h2>
+                <br/>
+                <h4>
+                    <span class="badge badge-pill badge-secondary">
+                        <i class="far fa-object-group"></i> Planning
+                    </span>
+                    <span class="badge badge-pill badge-secondary">
+                        <i class="fas fa-cube"></i> 3D Modeling
+                    </span>
+                    <span class="badge badge-pill badge-secondary">
+                        <i class="fas fa-archway"></i> Structure Design
+                    </span>
+                    <span class="badge badge-pill badge-secondary">
+                        <i class="fas fa-chart-bar"></i> Estimates
+                    </span>
+                    <span class="badge badge-pill badge-secondary">
+                        <i class="far fa-eye"></i> Supervision
+                    </span>
+                    <span class="badge badge-pill badge-secondary">
+                        <i class="fas fa-user-check"></i> Consultancy
+                    </span>
+                    <span class="badge badge-pill badge-secondary">
+                        <i class="fas fa-drafting-compass"></i> Architecture
+                    </span>
+                    <span class="badge badge-pill badge-secondary">
+                        <i class="fas fa-ruler-combined"></i> Engineering
+                    </span>
+                </h4>
+            </div>
+        </div>
+
+        <div class="card text-white bg-secondary my-2 text-center">
+            <div class="card-body">
+                <p class="text-white m-0">
+                    <i class="fas fa-home"></i>
+                    Architects & Engineers
+                    <i class="fas fa-building"></i>
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h3 class="card-title">
+                            <i class="fas fa-info-circle"></i> About
+                        </h3>
+                        <p class="card-text">
+                            <i class="far fa-calendar-alt"></i> 22+ years of Experience
+                            <br/>
+                            <i class="fas fa-user-tie"></i> Individual Proprietary
+                            <br/>
+                            <i class="fas fa-medal"></i> 100% Customer Satisfaction
+                            <br/>
+                            <i class="far fa-lightbulb"></i> Innovative Solutions
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h3 class="card-title">
+                            <i class="fas fa-address-card"></i> Contact
+                        </h3>
+                        <p class="card-text">
+                            <i class="fas fa-mobile-alt"></i>
+                            <a href="tel:+919450653412" style="text-decoration: none">+91-9450653412</a>
+                            <br/>
+                            <i class="fab fa-whatsapp"></i> +91-9450653412
+                            <br/>
+                            <i class="far fa-envelope"></i>
+                            <a href="mailto:awadh.estate@gmail.com" style="text-decoration: none">awadh.estate@gmail.com</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h3 class="card-title">
+                            <i class="fas fa-map-marker-alt"></i> Address
+                        </h3>
+                        <p class="card-text">
+                            518-C, Sector-M
+                            <br/>Aashiana Colony
+                            <br/>Lucknow - 226012
+                            <br/>India (UP)
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="py-1 bg-dark">
+        <div class="container">
+            <p class="m-0 text-center text-white">Copyright &copy; 2018</p>
+        </div>
+    </footer>
 </body>
+
 </html>
