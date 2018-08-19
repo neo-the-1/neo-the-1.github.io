@@ -4,31 +4,27 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Avadh Estate Consultants (AEC) provides services for Planning, 3D Modeling, Structure Design, Site Survey, Interior Design, Site Supervision, Architecture, Civil Engineering, Project Management, Quality Control Assurance, Valuation of immovable property, Estimates, Water Proofing and Utilities">
+    <meta name="description" content="Avadh Estate Consultants (AEC) provides services for Planning, 3D Modeling, Structure Design, Site Survey, Interior Design, Site Supervision, Architecture, Civil Engineering, Project Management, Quality Control Assurance, Valuation of immovable property, Estimates, Water Proofing and Utilities. Top rated Architect Office in Aashiyana Lucknow">
     <meta name="author" content="Saurabh Shakya">
 
     <title>Avadh Estate & Consultants</title>
-    <link rel="icon" type="image/png" href="logo.png">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
-    <style>
-        body {
-            padding-top: 54px;
-        }
+    <link rel="icon" type="image/png" href="images/logo.png">
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/fontawesome.css">
+    <link rel="stylesheet" href="styles/app.css">
+    <link rel="stylesheet" href="styles/pannellum.css" />
 
-        @media (min-width: 992px) {
-            body {
-                padding-top: 56px;
-            }
-        }
-    </style>
+    <script type="text/javascript" src="scripts/jquery.min.js"></script>
+    <script type="text/javascript" src="scripts/popper.min.js"></script>
+    <script type="text/javascript" src="scripts/bootstrap.min.js"></script>
+    <script type="text/javascript" src="scripts/app.js"></script>
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="logo.png" alt="AEC" height="30" />
+                <img src="images/logo.png" alt="AEC" height="30" />
                 <h1 style="display: inline; font-size: 23px">Avadh Estate & Consultants</h1>
             </a>
             <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
@@ -41,74 +37,74 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 my-4">
-                <link rel="stylesheet" href="https://cdn.pannellum.org/2.4/pannellum.css" />
-                <script type="text/javascript" src="https://cdn.pannellum.org/2.4/pannellum.js"></script>
                 <div id="panorama" style="height: 300px;"></div>
+                <script type="text/javascript" src="scripts/pannellum.js"></script>
                 <script>
-                    pannellum.viewer('panorama', {
+                    var options = {
                         "type": "equirectangular",
                         "autoLoad": true,
                         "autoRotate": -2,
                         "showZoomCtrl": false,
-                        "panorama": "panaroma.jpg"
-                    });
+                        "panorama": "images/panaroma.jpg"
+                    };
+                    pannellum.viewer('panorama', options);
                 </script>
             </div>
             <div class="col-lg-4 my-4">
-                <h2>
+                <span style="font-size: 24px; font-weight: bold;">
                     <i class="fas fa-tags"></i> AEC Services
-                </h2>
+                </span>
                 <h4>
-                    <span class="badge badge-pill badge-secondary">
+                    <span class="badge badge-pill badge-info">
                         <i class="far fa-object-group"></i> Planning
                     </span>
-                    <span class="badge badge-pill badge-secondary">
+                    <span class="badge badge-pill badge-info">
                         <i class="fas fa-cube"></i> 3D Modeling
                     </span>
-                    <span class="badge badge-pill badge-secondary">
+                    <span class="badge badge-pill badge-info">
                         <i class="fas fa-cubes"></i> Structure Design
                     </span>
-                    <span class="badge badge-pill badge-secondary">
+                    <span class="badge badge-pill badge-info">
                         <i class="fas fa-tape"></i> Survey
                     </span>
-                    <span class="badge badge-pill badge-secondary">
+                    <span class="badge badge-pill badge-info">
                         <i class="fas fa-couch"></i> Interior Design
                     </span>
-                    <span class="badge badge-pill badge-secondary">
+                    <span class="badge badge-pill badge-info">
                         <i class="far fa-eye"></i> Supervision
                     </span>
-                    <span class="badge badge-pill badge-secondary">
+                    <span class="badge badge-pill badge-info">
                         <i class="fas fa-drafting-compass"></i> Architecture
                     </span>
-                    <span class="badge badge-pill badge-secondary">
+                    <span class="badge badge-pill badge-info">
                         <i class="fas fa-cogs"></i> Engineering
                     </span>
-                    <span class="badge badge-pill badge-secondary">
+                    <span class="badge badge-pill badge-info">
                         <i class="fas fa-user-check"></i> Project Management
                     </span>
-                    <span class="badge badge-pill badge-secondary">
+                    <span class="badge badge-pill badge-info">
                         <i class="far fa-check-square"></i> Quality Control & Assurance
                     </span>
-                    <span class="badge badge-pill badge-secondary">
+                    <span class="badge badge-pill badge-info">
                         <i class="fas fa-chart-bar"></i> Valuation of immovable property
                     </span>
-                    <span class="badge badge-pill badge-secondary">
+                    <span class="badge badge-pill badge-info">
                         <i class="fas fa-chart-pie"></i> Estimates
                     </span>
-                    <span class="badge badge-pill badge-secondary">
+                    <span class="badge badge-pill badge-info">
                         <i class="fas fa-tint"></i> Water Proofing
                     </span>
                 </h4>
             </div>
         </div>
 
-        <div class="card text-white bg-secondary my-2 text-center">
+        <div class="card text-white bg-dark my-2 text-center">
             <div class="card-body">
-                <p class="text-white m-0">
+                <h5 class="text-white m-0">
                     <i class="fas fa-home"></i>
                     Architects & Engineers
                     <i class="fas fa-building"></i>
-                </p>
+                </h5>
             </div>
         </div>
 
@@ -166,7 +162,8 @@
                             <br/>Lucknow - 226012
                             <br/>India (UP)
                             <br/>
-                            <a target="_blank" href="https://goo.gl/maps/a9kePLfYPi72" title="Directions" style="text-decoration: none">
+                            <a target="_blank" href="https://goo.gl/maps/a9kePLfYPi72" title="Directions" style="text-decoration: none" data-toggle="tooltip"
+                                data-placement="right">
                                 <i class="fas fa-lg fa-map-signs"></i>
                             </a>
                         </p>
