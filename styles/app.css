@@ -2,6 +2,11 @@ body {
     padding-top: 54px;
 }
 
+.badge-info {
+  color: #fff;
+  background-color: #343a40;
+}
+
 @media (min-width: 992px) {
     body {
         padding-top: 56px;
@@ -15,7 +20,7 @@ body {
     to {
       opacity: 0.0;
     }
-  }
+}
 
 .blink {
     text-decoration: blink;
@@ -24,4 +29,4 @@ body {
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-timing-function: ease-in-out;
     -webkit-animation-direction: alternate;
-  }
+}
